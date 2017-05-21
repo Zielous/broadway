@@ -1,0 +1,63 @@
+html {
+  text-align: center;
+  font-family: "Helvetica"; san-serif;
+}
+
+h1 {
+  font-family: "Helvetica", san-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+li {
+  list-style-type: none; /* no bullet points */
+}
+
+.white, footer, a {
+    color: white;
+}
+
+.flatiron {
+  background: url("../images/the-flatiron-building.png");
+}
+
+/* HEADER AREA */
+
+header li {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-right: 30px; /* due to no bullet points, need to push list back to the left by adding padding to the right */
+
+}
+
+/* FOOTER AREA */
+
+footer {
+  overflow:overlay;
+  background-color: dimgray;
+}
+
+footer p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  float: left; /* float left side of its containing block */
+  font-size: 11px;
+}
+
+footer ul {
+  margin-top: 0px;
+}
+
+footer li {
+  float: left; /* float left side of its containing block */
+  padding-left: 8px; /* space between each */
+}
